@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "astclient54",
+  "version": "${version}",
+  "name": "Astro Client",
+  "description": "yes",
+  "authors": [
+    "Astrogamer54"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "https://www.astrogamer54.com/",
+    "sources": "https://github.com/Astrogamer54/astclient54"
+  },
+  "license": "MIT",
+  "icon": "assets/astclient54/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.astrogamer54.astclient.AstroClient"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "astclient54.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.2"
+  }
+}
