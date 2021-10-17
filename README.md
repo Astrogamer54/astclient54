@@ -1,2 +1,0 @@
-# astclient54
-yes
