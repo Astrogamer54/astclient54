@@ -1,8 +1,11 @@
 {
   "required": true,
   "package": "com.astrogamer54.astclient.mixin",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [],
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "MinecraftClientMixin",
+    "ScreenMixin"
+  ],
   "client": [],
   "server": [],
   "injectors": {
